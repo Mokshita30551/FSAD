@@ -1,11 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>My Website</title>
+    <title>Welcome Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #acb6e5);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background-color: white;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 400px;
+        }
+        h1 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 15px 0;
+        }
+        ul li a {
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+            background-color: #5a67d8;
+            color: white;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        ul li a:hover {
+            background-color: #434190;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-<h1>FULL STACK DEVELOPMENT</h1>
-<h2> FULL STACK DEVELOPMENT</h2>
-<p>Mock Index Page</p>
+    <div class="container">
+        <h1>Welcome</h1>
+        <p>Please select a table to view</p>
+        <ul>
+            <li><a href="week-1.html">Table Type 1</a></li>
+            <li><a href="Seminartimetable.html">Table Type 2</a></li>
+            <li><a href="Timetable.html">Table Type 3</a></li>
+        </ul>
+    </div>
 </body>
 </html>
