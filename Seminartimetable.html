@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seminar Schedule</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #e6e6e6;
+        }
+        caption {
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>Seminar Schedule</caption>
+    <tr>
+        <th rowspan="2">Day</th>
+        <th colspan="2">Schedule</th>
+        <th rowspan="2">Topic</th>
+    </tr>
+    <tr>
+        <th>Begin</th>
+        <th>End</th>
+    </tr>
+
+    <tr>
+        <td>Monday</td>
+        <td>8:00 a.m.</td>
+        <td>5:00 p.m.</td>
+        <td>Introduction to XML<br>Validity: DTD and Relax NG</td>
+    </tr>
+
+    <tr>
+        <td rowspan="2">Tuesday</td>
+        <td>8:00 a.m.</td>
+        <td>11:00 a.m.</td>
+        <td>XPath</td>
+    </tr>
+
+    <tr>
+        <td>2:00 p.m.</td>
+        <td>5:00 p.m.</td>
+        <td>XSL Transformations</td>
+    </tr>
+
+    <tr>
+        <td>Wednesday</td>
+        <td>8:00 a.m.</td>
+        <td>12:00 p.m.</td>
+        <td>XSL Formatting Objects</td>
+    </tr>
+</table>
+
+</body>
+</html>
